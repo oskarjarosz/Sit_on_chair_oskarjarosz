@@ -29,4 +29,38 @@ document.addEventListener('DOMContentLoaded', function(){
     };
     chairImages[currentImage].classList.add('visible');
   });
+
+
+
+  //chowanie tekstu po najechaniu na zdjęcie
+
+    var images = document.querySelectorAll('.col1');
+
+
+    [...images].forEach(function(el) {
+      el.addEventListener('mouseover', function(ev) {
+        var label = el.querySelector('.cap1');
+        label.style.display = 'none';
+      });
+      el.addEventListener('mouseout', function(ev) {
+        var label = el.querySelector('.cap1');
+        label.style.display = 'block';
+      });
+    });
+
+
+    var images = document.querySelectorAll('.col2');
+
+
+    [...images].forEach(function(el) {
+      el.addEventListener('mouseover', function(ev) {
+        var label = el.querySelector('.cap2');
+        label.style.display = 'none';
+      });
+      el.addEventListener('mouseout', function(ev) {
+        var label = el.querySelector('.cap2');
+        label.style.display = 'block';
+      });
+    });
+
 });
