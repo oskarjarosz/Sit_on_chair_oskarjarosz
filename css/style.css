@@ -153,10 +153,32 @@ border-bottom: 10px solid transparent;
   height: 500px;
 }
 
-.slider-photo{
-  width: 50%;
-  float: left;
-  padding: 100px;
+.slider-photos li {
+  display: none;
+  height:339px;
+  width:473px;
+  float:left;
+}
+.slider-photos .visible {
+  display: block;
+}
+.slider-img-one {
+  background: url(../images/black_chair.png);
+  background-repeat: no-repeat;
+  background-size: 124%;
+  background-position: 34% 39%;
+}
+.slider-img-two {
+  background: url(../images/orange.png);
+  background-repeat: no-repeat;
+  background-size: 94%;
+  background-position: 85% 163%;
+}
+.slider-img-three {
+  background: url(../images/red.png);
+  background-repeat: no-repeat;
+  background-size: 109%;
+  background-position: 34% 39%;
 }
 
 .slider-text {
