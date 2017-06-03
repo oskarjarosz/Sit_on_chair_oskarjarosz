@@ -515,6 +515,21 @@ h4 {
     margin-left: 40px;
 }
 
-.logo span {
-  font-weight: 700;
+/* arrow */
+
+.slider:first-of-type {
+  position: absolute;
+  left: 200px;
+  top: 145px;
+  font-size: 80px;
+  color:#2bb99e;
+  font-weight: 300;
+}
+.slider:last-of-type {
+  position: absolute;
+  right: 200px;
+  top: 145px;
+  font-size: 80px;
+  color: #2bb99e;
+  font-weight: 300;
 }
